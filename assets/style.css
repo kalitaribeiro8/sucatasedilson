@@ -1,3 +1,5 @@
+o css da pagina mas nao altere nada alem do que pedi
+
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -78,7 +80,7 @@ body {
     background-image: url('../assets/images/bg1.jpg');
     background-size: cover;
     background-position: center;
-    height: calc(100vh - 60px);
+     height: calc(100vh - 60px);
     background-image: url('../assets/images/bg1.jpg');
     background-size: cover;
     background-position: center;
@@ -131,16 +133,15 @@ body {
 
 .tel img,
 .whats img {
-    width: 18px; 
-    height: 28px; 
+    width: 40px;
+    height: 40px;
     padding: 5px;
 }
 
 .tel h2,
 .whats h2 {
     text-align: center;
-    padding: 4px; /* AJUSTADO */
-    font-size: 16px; /* AJUSTADO */
+    padding: 6px;
 }
 
 .banner-area--info {
@@ -255,6 +256,7 @@ body {
     background-color: #f5f5f5;
 }
 
+/* ===================== RODAPÉ ===================== */
 /* ===================== RODAPÉ CORRIGIDO ===================== */
 footer {
     background-color: #000;
@@ -311,19 +313,35 @@ footer {
     height: 50px;
 }
 
-/* ===================== RESPONSIVO ===================== */
-@media (max-width: 768px) {
+/* ===================== RESPONSIVIDADE ===================== */
+@media (max-width: 1024px) {
+    .section-header--menu li a {
+        font-size: 18px;
+        margin-right: 13px;
+        padding: 0 5px;
+    }
+
+    .section-aboutus--right {
+        width: 320px;
+    }
+
+    .section-aboutus--right img {
+        width: 300px;
+    }
+
     .footer {
         flex-direction: column;
-        text-align: center;
     }
 
-    .footer-2 {
-        margin-bottom: 20px;
-    }
-
+    .footer-1,
+    .footer-2,
     .footer-3 {
-        align-items: center;
+        width: 80%;
+        margin: auto;
+    }
+
+    .footer-3 img {
+        margin-top: 30px;
     }
 }
 
@@ -391,6 +409,7 @@ footer {
     }
 }
 
+
 /* ===================== ANIMAÇÕES ===================== */
 @keyframes clockwise {
     0% { transform: rotate(0deg); }
@@ -424,20 +443,19 @@ footer {
     background: transparent;
     box-shadow: inset 0px 0px 20px black;
 }
-
 .contact-button {
     display: flex;
     align-items: center;
-    justify-content: center; /* centraliza */
     gap: 10px;
     margin-bottom: 10px;
 }
+
 .contact-button img {
     width: 30px;
     height: 30px;
 }
 
 .contact-button h2 {
-    font-size: 46px; 
-    margin: 0;
+    font-size: 18px;
+    color: black;
 }
