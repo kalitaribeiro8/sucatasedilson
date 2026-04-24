@@ -446,16 +446,17 @@ footer {
 .contact-button {
     display: flex;
     align-items: center;
-    gap: 10px;
-    margin-bottom: 10px;
+    justify-content: center;
+    gap: 15px; /* mais espaço entre ícone e texto */
+    margin-bottom: 18px; /* mais respiro entre linhas */
 }
 
 .contact-button img {
-    width: 30px;
-    height: 30px;
+    width: 38px;  /* tamanho ideal */
+    height: 38px;
 }
 
 .contact-button h2 {
-    font-size: 18px;
-    color: black;
+    font-size: 18px; /* legível e proporcional */
+    margin: 0;
 }
