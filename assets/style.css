@@ -447,16 +447,16 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 15px; /* mais espaço entre ícone e texto */
-    margin-bottom: 18px; /* mais respiro entre linhas */
+    gap: 25px; /* mais espaço entre ícone e texto */
+    margin-bottom: 28px; /* mais respiro entre linhas */
 }
 
 .contact-button img {
-    width: 38px;  /* tamanho ideal */
-    height: 38px;
+    width: 58px;  /* tamanho ideal */
+    height: 58px;
 }
 
 .contact-button h2 {
-    font-size: 18px; /* legível e proporcional */
+    font-size: 28px; /* legível e proporcional */
     margin: 0;
 }
