@@ -258,37 +258,34 @@ body {
 /* ===================== RODAPÉ ===================== */
 footer {
     background-color: #000;
+    padding: 30px 0; /* diminui altura */
 }
 
 .footer {
-    max-width: 10%;
+    max-width: 1140px;
     color: #fff;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between; /* separa texto e whatsapp */
+    align-items: center;
     margin: auto;
-    padding: 20px; /* AJUSTADO */
 }
 
-.footer-1,
-.footer-2,
-.footer-3 {
-    width: 10%;
-    margin: 20px; /* AJUSTADO */
-}
-
-.footer-1 {
-    display: flex;
-    flex-direction: column;
-}
-
+/* TEXTO CENTRAL */
 .footer-2 {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center; /* centralizado */
+    line-height: 1.5;
     color: #ccc;
-    text-align: justify;
-    line-height: 1.4; /* AJUSTADO */
-    letter-spacing: normal; /* AJUSTADO */
-    word-spacing: normal; /* AJUSTADO */
 }
 
+/* REMOVE ESPAÇOS GRANDES */
+.footer-1,
+.footer-3 {
+    margin: 0;
+}
+
+/* WHATSAPP NA DIREITA */
 .footer-3 {
     display: flex;
     flex-direction: column;
@@ -297,22 +294,17 @@ footer {
 }
 
 .footer-3 h3 {
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 30px;
+    padding-top: 0;
+    margin-bottom: 10px;
 }
 
 .footer-3 .line {
-    width: 200px;
-    height: 3px;
-    background-color: #999;
-    margin: 20px auto 0;
+    margin: 10px auto;
 }
 
 .footer-3 img {
-    width: 100px;
+    width: 80px; /* um pouco menor */
 }
-
 /* ===================== VOLTAR ===================== */
 .voltar a {
     font-family: 'Roboto', sans-serif;
