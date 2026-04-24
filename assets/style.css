@@ -10,17 +10,17 @@ body {
 }
 
 .section-title {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 700;
     margin-top: 25px;
     color: #006449;
 }
 
 .section-desc {
-    font-size: 12px;
+    font-size: 20px;
     font-weight: 500;
     color: #3CB371;
-    margin-top: 20px;
+    margin-top: 40px;
     margin-bottom: 40px;
 }
 
