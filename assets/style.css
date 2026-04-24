@@ -78,7 +78,7 @@ body {
     background-image: url('../assets/images/bg1.jpg');
     background-size: cover;
     background-position: center;
-     height: calc(100vh - 60px);
+    height: calc(100vh - 60px);
     background-image: url('../assets/images/bg1.jpg');
     background-size: cover;
     background-position: center;
@@ -131,15 +131,16 @@ body {
 
 .tel img,
 .whats img {
-    width: 40px;
-    height: 40px;
+    width: 28px; /* AJUSTADO */
+    height: 28px; /* AJUSTADO */
     padding: 5px;
 }
 
 .tel h2,
 .whats h2 {
     text-align: center;
-    padding: 6px;
+    padding: 4px; /* AJUSTADO */
+    font-size: 16px; /* AJUSTADO */
 }
 
 .banner-area--info {
@@ -265,13 +266,14 @@ footer {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    padding: 20px 0; /* AJUSTADO */
 }
 
 .footer-1,
 .footer-2,
 .footer-3 {
     width: 50%;
-    margin: 50px;
+    margin: 20px; /* AJUSTADO */
 }
 
 .footer-1 {
@@ -282,6 +284,9 @@ footer {
 .footer-2 {
     color: #ccc;
     text-align: justify;
+    line-height: 1.4; /* AJUSTADO */
+    letter-spacing: normal; /* AJUSTADO */
+    word-spacing: normal; /* AJUSTADO */
 }
 
 .footer-3 {
@@ -419,7 +424,6 @@ footer {
     }
 }
 
-
 /* ===================== ANIMAÇÕES ===================== */
 @keyframes clockwise {
     0% { transform: rotate(0deg); }
@@ -453,6 +457,7 @@ footer {
     background: transparent;
     box-shadow: inset 0px 0px 20px black;
 }
+
 .contact-button {
     display: flex;
     align-items: center;
