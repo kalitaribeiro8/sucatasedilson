@@ -131,8 +131,8 @@ body {
 
 .tel img,
 .whats img {
-    width: 28px; /* AJUSTADO */
-    height: 28px; /* AJUSTADO */
+    width: 28px; 
+    height: 28px; 
     padding: 5px;
 }
 
@@ -266,7 +266,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    padding: 20px 0; /* AJUSTADO */
+    padding: 20px; /* AJUSTADO */
 }
 
 .footer-1,
