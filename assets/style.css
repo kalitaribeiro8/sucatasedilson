@@ -1,5 +1,3 @@
-o css da pagina mas nao altere nada alem do que pedi
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -76,19 +74,13 @@ body {
 
 /* ===================== BANNER ===================== */
 .banner {
-    height: calc(110vh - 105px);
-    background-image: url('../assets/images/bg1.jpg');
-    background-size: cover;
-    background-position: center;
-     height: calc(100vh - 60px);
+    height: calc(100vh - 60px);
     background-image: url('../assets/images/bg1.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 0;
-    margin-top: 0;
 }
 
 .banner-area {
@@ -124,6 +116,7 @@ body {
     color: #32CD32;
 }
 
+/* TELEFONE */
 .tel,
 .whats {
     display: flex;
@@ -133,22 +126,18 @@ body {
 
 .tel img,
 .whats img {
-    width: 40px;
-    height: 40px;
-    padding: 5px;
+    width: 38px;
+    height: 38px;
+    margin-right: 10px;
 }
 
 .tel h2,
 .whats h2 {
-    text-align: center;
-    padding: 6px;
+    font-size: 18px;
+    margin: 0;
 }
 
-.banner-area--info {
-    width: 430px;
-}
-
-/* ===================== SOBRE DA PAGINA===================== */
+/* ===================== SOBRE ===================== */
 .section-aboutus {
     display: flex;
     justify-content: center;
@@ -156,11 +145,6 @@ body {
     gap: 60px;
     padding: 40px;
     flex-wrap: wrap;
-}
-
-.section-aboutus--left {
-    flex: 1;
-    min-width: 400px;
 }
 
 .section-aboutus--left p {
@@ -172,8 +156,6 @@ body {
 .section-aboutus--right {
     display: flex;
     gap: 20px;
-    flex: 1;
-    min-width: 400px;
     justify-content: center;
     flex-wrap: wrap;
 }
@@ -181,277 +163,89 @@ body {
 .section-aboutus--right img {
     width: 220px;
     height: 220px;
-    object-fit: cover;
     border-radius: 12px;
     box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
-    transition: transform 0.3s;
 }
 
-.section-aboutus--right img:hover {
-    transform: scale(1.05);
-}
-
-/* ===================== IMAGENS DA SUCATA ===================== */
-.tiposSucatas {
-    background-color: #f5f5f5;
-}
-
-.section-projects--photos {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 1140px;
-    margin: 30px auto;
-    justify-content: center;
-}
-
-.section-projects--photo {
-    width: 280px;
-}
-
-.section-projects--photoarea {
-    margin: 10px;
-    width: 260px;
-    height: 160px;
-    position: relative;
-}
-
-.section-projects--photoarea img {
-    width: 100%;
-    height: 100%;
-}
-
-.sections-projects--photoinfo {
-    display: none;
-    position: absolute;
-    background-color: rgba(0,0,0,0.5);
-    width: 100%;
-    height: 100%;
-    justify-content: center;
-    align-items: center;
-    color: #fff;
-    flex-direction: column;
-}
-
-.sections-projects--photoinfo h5 {
-    font-size: 18px;
-    font-weight: 600;
-    margin-bottom: 5px;
-}
-
-.section-projects--photoarea:hover .sections-projects--photoinfo,
-.section-projects--photoarea .sections-projects--photoinfo.active {
-    display: flex;
-}
-
-.artigo-sucata p {
-    font-size: 14px;
-    line-height: 25px;
-    text-align: justify;
-    margin-top: 10px;
-}
-
-/* ===================== ICONE CONTATO ===================== */
+/* ===================== CONTATO ===================== */
 .contact {
     background-color: #f5f5f5;
+    padding: 40px 0;
 }
 
-/* ===================== RODAPÉ CORRIGIDO ===================== */
+/* BOTÕES */
+.contact-button {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+    background: #fff;
+    padding: 12px 20px;
+    border-radius: 30px;
+
+    margin: 10px auto;
+    width: fit-content;
+
+    text-decoration: none;
+    transition: all 0.3s ease;
+
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.contact-button img {
+    width: 34px;
+    height: 34px;
+}
+
+.contact-button span {
+    font-size: 16px;
+    color: #222;
+}
+
+/* HOVER */
+.contact-button:hover {
+    background-color: #25D366;
+    transform: translateY(-2px);
+}
+
+.contact-button:hover span {
+    color: #fff;
+}
+
+/* ===================== RODAPÉ ===================== */
 footer {
-    background-color: #000;
-    padding: 25px 0;
+    background: #000;
+    padding: 20px 0;
 }
 
-/* mantém estrutura mas arruma alinhamento */
 .footer {
     max-width: 1140px;
     margin: auto;
     display: flex;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
 }
 
-/* TEXTO CENTRAL */
 .footer-2 {
     flex: 1;
     text-align: center;
     color: #ccc;
     font-size: 14px;
     line-height: 1.5;
-    margin: 0 auto;
 }
 
-/* REMOVE ESPAÇO EXAGERADO */
-.footer-1,
 .footer-3 {
-    margin: 0;
-}
-
-/* WHATSAPP NA DIREITA */
-.footer-3 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-/* AJUSTES VISUAIS */
-.footer-3 h3 {
-    margin: 0;
-    font-size: 14px;
-}
-
-.footer-3 .line {
-    width: 100px;
-    height: 2px;
-    background-color: #555;
-    margin: 8px 0;
+    text-align: center;
 }
 
 .footer-3 img {
-    width: 50px; /* menor */
-    height: 50px;
+    width: 55px;
 }
-@media (max-width: 1024px) {
-    .section-header--menu li a {
-        font-size: 18px;
-        margin-right: 13px;
-        padding: 0 5px;
-    }
 
-    .section-aboutus--right {
-        width: 320px;
-    }
-
-    .section-aboutus--right img {
-        width: 300px;
-    }
-
+/* ===================== RESPONSIVO ===================== */
+@media (max-width: 768px) {
     .footer {
-        flex-direction: column;
-    }
-
-    .footer-1,
-    .footer-2,
-    .footer-3 {
-        width: 80%;
-        margin: auto;
-    }
-
-    .footer-3 img {
-        margin-top: 30px;
-    }
-}
-
-@media (max-width: 850px) {
-    .section-header--menu li a {
-        display: none;
-    }
-
-    .banner-area h1 {
-        font-size: 24px;
-        padding-top: 20px;
-    }
-
-    .banner-area h2 {
-        font-size: 18px;
-        padding-top: 5px;
-    }
-
-    .banner-area--info {
-        position: absolute;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-
-    .banner-area--info h1 {
-        font-size: 24px;
-    }
-
-    .banner-area--info h2 {
-        font-size: 18px;
-    }
-
-    .banner-area--info p {
-        font-size: 16px;
-    }
-
-    .section-aboutus {
         flex-direction: column;
         gap: 20px;
-        padding: 20px;
     }
-
-    .section-aboutus--right {
-        width: 100%;
-    }
-
-    .section-aboutus--right img {
-        width: 80%;
-        height: auto;
-    }
-
-    .footer {
-        flex-direction: column;
-    }
-
-    .footer-1,
-    .footer-2,
-    .footer-3 {
-        width: 80%;
-        margin: auto;
-    }
-
-    .footer-3 img {
-        width: 60px;
-    }
-}
-
-
-/* ===================== ANIMAÇÕES ===================== */
-@keyframes clockwise {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-@keyframes counter-clockwise {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(-360deg); }
-}
-
-.gearbox {
-    background: #111;
-    height: 100px;
-    width: 130px;
-    position: relative;
-    border-radius: 6px;
-    overflow: hidden;
-    box-shadow: 0px 0px 0px 1px rgba(255, 255, 255, 0.1);
-}
-
-.gearbox .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    border-radius: 6px;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    background: transparent;
-    box-shadow: inset 0px 0px 20px black;
-}
-.contact-button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px; 
-    margin-bottom: 28px; 
-}
-
-.contact-button img {
-    width: 35px;  
-    height: 38px;
-}
-
-.contact-button h2 {
-    font-size: 21px; 
-    margin: 0;
 }
