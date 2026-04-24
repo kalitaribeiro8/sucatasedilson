@@ -271,7 +271,7 @@ footer {
 .footer-2,
 .footer-3 {
     width: 25%;
-    margin: 10px;
+    margin: 50px;
 }
 
 .footer-1 {
@@ -298,7 +298,7 @@ footer {
 }
 
 .footer-3 .line {
-    width: 260px;
+    width: 200px;
     height: 3px;
     background-color: #999;
     margin: 20px auto 0;
