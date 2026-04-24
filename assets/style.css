@@ -255,13 +255,13 @@ body {
     background-color: #f5f5f5;
 }
 
-/* ===================== RODAPÉ ===================== */
+/* ===================== RODAPÉ CORRIGIDO ===================== */
 footer {
     background-color: #000;
-    padding: 55px 0;
+    padding: 25px 0;
 }
 
-
+/* mantém estrutura mas arruma alinhamento */
 .footer {
     max-width: 1140px;
     margin: auto;
@@ -270,6 +270,7 @@ footer {
     justify-content: space-between;
 }
 
+/* TEXTO CENTRAL */
 .footer-2 {
     flex: 1;
     text-align: center;
@@ -279,12 +280,13 @@ footer {
     margin: 0 auto;
 }
 
+/* REMOVE ESPAÇO EXAGERADO */
 .footer-1,
 .footer-3 {
     margin: 0;
 }
 
-/* WHATSAPP */
+/* WHATSAPP NA DIREITA */
 .footer-3 {
     display: flex;
     flex-direction: column;
@@ -300,15 +302,14 @@ footer {
 .footer-3 .line {
     width: 100px;
     height: 2px;
-    background-color: #db0771;
+    background-color: #555;
     margin: 8px 0;
 }
 
 .footer-3 img {
-    width: 50px; 
+    width: 50px; /* menor */
     height: 50px;
 }
-
 @media (max-width: 1024px) {
     .section-header--menu li a {
         font-size: 18px;
