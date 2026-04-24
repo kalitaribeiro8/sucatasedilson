@@ -148,7 +148,7 @@ body {
     width: 430px;
 }
 
-/* ===================== SOBRE ===================== */
+/* ===================== SOBRE DA PAGINA===================== */
 .section-aboutus {
     display: flex;
     justify-content: center;
@@ -191,7 +191,7 @@ body {
     transform: scale(1.05);
 }
 
-/* ===================== TIPOS DE SUCATA ===================== */
+/* ===================== IMAGENS DA SUCATA ===================== */
 .tiposSucatas {
     background-color: #f5f5f5;
 }
@@ -243,7 +243,6 @@ body {
     display: flex;
 }
 
-/* ===================== ARTIGO ===================== */
 .artigo-sucata p {
     font-size: 14px;
     line-height: 25px;
@@ -251,13 +250,12 @@ body {
     margin-top: 10px;
 }
 
-/* ===================== CONTATO ===================== */
+/* ===================== ICONE CONTATO ===================== */
 .contact {
     background-color: #f5f5f5;
 }
 
 /* ===================== RODAPÉ ===================== */
-/* ===================== RODAPÉ CORRIGIDO ===================== */
 footer {
     background-color: #000;
     padding: 25px 0;
@@ -272,7 +270,7 @@ footer {
     justify-content: space-between;
 }
 
-/* TEXTO CENTRAL */
+/* TEXTO */
 .footer-2 {
     flex: 1;
     text-align: center;
@@ -282,13 +280,12 @@ footer {
     margin: 0 auto;
 }
 
-/* REMOVE ESPAÇO EXAGERADO */
 .footer-1,
 .footer-3 {
     margin: 0;
 }
 
-/* WHATSAPP NA DIREITA */
+/* WHATSAPP */
 .footer-3 {
     display: flex;
     flex-direction: column;
@@ -313,7 +310,6 @@ footer {
     height: 50px;
 }
 
-/* ===================== RESPONSIVIDADE ===================== */
 @media (max-width: 1024px) {
     .section-header--menu li a {
         font-size: 18px;
@@ -421,7 +417,6 @@ footer {
     100% { transform: rotate(-360deg); }
 }
 
-/* ===================== GEARBOX ===================== */
 .gearbox {
     background: #111;
     height: 100px;
@@ -447,16 +442,16 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 25px; /* mais espaço entre ícone e texto */
-    margin-bottom: 28px; /* mais respiro entre linhas */
+    gap: 25px; 
+    margin-bottom: 28px; 
 }
 
 .contact-button img {
-    width: 58px;  /* tamanho ideal */
-    height: 58px;
+    width: 41px;  
+    height: 40px;
 }
 
 .contact-button h2 {
-    font-size: 28px; /* legível e proporcional */
+    font-size: 21px; 
     margin: 0;
 }
