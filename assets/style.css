@@ -428,16 +428,16 @@ footer {
 .contact-button {
     display: flex;
     align-items: center;
+    justify-content: center; /* centraliza */
     gap: 10px;
     margin-bottom: 10px;
 }
-
 .contact-button img {
     width: 30px;
     height: 30px;
 }
 
 .contact-button h2 {
-    font-size: 18px;
-    color: black;
+    font-size: 16px; /* diminui */
+    margin: 0;
 }
