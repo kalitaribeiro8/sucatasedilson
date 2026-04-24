@@ -255,40 +255,38 @@ body {
     background-color: #f5f5f5;
 }
 
-/* ===================== RODAPÉ ===================== */
+/* ===================== RODAPÉ PROFISSIONAL ===================== */
 footer {
     background-color: #000;
+    padding: 25px 0; /* altura controlada */
 }
 
 .footer {
-    max-width: 50%;
-    color: #fff;
-    display: flex;
-    flex-wrap: wrap;
+    max-width: 1140px;
     margin: auto;
-    padding: 20px 0; /* AJUSTADO */
-}
-
-.footer-1,
-.footer-2,
-.footer-3 {
-    width: 50%;
-    margin: 20px; /* AJUSTADO */
-}
-
-.footer-1 {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
+/* REMOVE COLUNAS INÚTEIS */
+.footer-1 {
+    display: none;
+}
+
+/* TEXTO CENTRALIZADO DE VERDADE */
 .footer-2 {
+    flex: 1;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
     color: #ccc;
-    text-align: justify;
-    line-height: 1.4; /* AJUSTADO */
-    letter-spacing: normal; /* AJUSTADO */
-    word-spacing: normal; /* AJUSTADO */
+    line-height: 1.5;
+    font-size: 14px;
 }
 
+/* WHATSAPP NA DIREITA */
 .footer-3 {
     display: flex;
     flex-direction: column;
@@ -296,21 +294,41 @@ footer {
     justify-content: center;
 }
 
+/* TÍTULO */
 .footer-3 h3 {
-    text-transform: uppercase;
-    text-align: center;
-    padding-top: 30px;
+    font-size: 14px;
+    margin-bottom: 5px;
+    padding: 0;
 }
 
+/* LINHA */
 .footer-3 .line {
-    width: 200px;
-    height: 3px;
-    background-color: #999;
-    margin: 20px auto 0;
+    width: 120px;
+    height: 2px;
+    background-color: #555;
+    margin: 5px 0 10px 0;
 }
 
+/* LOGO WHATSAPP PEQUENA E ALINHADA */
 .footer-3 img {
-    width: 100px;
+    width: 55px;
+    height: 55px;
+}
+
+/* ===================== RESPONSIVO ===================== */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-2 {
+        margin-bottom: 20px;
+    }
+
+    .footer-3 {
+        align-items: center;
+    }
 }
 
 /* ===================== VOLTAR ===================== */
