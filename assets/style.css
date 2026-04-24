@@ -442,13 +442,13 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 25px; 
+    gap: 15px; 
     margin-bottom: 28px; 
 }
 
 .contact-button img {
-    width: 41px;  
-    height: 40px;
+    width: 40px;  
+    height: 38px;
 }
 
 .contact-button h2 {
