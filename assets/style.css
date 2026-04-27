@@ -2,7 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-/* ===================== TITULOS ===================== */
 .section-title,
 .section-desc {
     text-align: center;
@@ -24,7 +23,6 @@ body {
     margin-bottom: 40px;
 }
 
-/* ===================== CABEÇALHO ===================== */
 .section-header {
     max-width: 1140px;
     margin: auto;
@@ -72,7 +70,6 @@ body {
     border-bottom: 4px solid #006449;
 }
 
-/* ===================== BANNER ===================== */
 .banner {
     height: calc(110vh - 105px);
     background-image: url('../assets/images/bg1.jpg');
@@ -131,23 +128,22 @@ body {
 
 .tel img,
 .whats img {
-    width: 28px; /* AJUSTADO */
-    height: 28px; /* AJUSTADO */
+    width: 28px;
+    height: 28px; 
     padding: 5px;
 }
 
 .tel h2,
 .whats h2 {
     text-align: center;
-    padding: 4px; /* AJUSTADO */
-    font-size: 16px; /* AJUSTADO */
+    padding: 4px; 
+    font-size: 16px; 
 }
 
 .banner-area--info {
     width: 430px;
 }
 
-/* ===================== SOBRE ===================== */
 .section-aboutus {
     display: flex;
     justify-content: center;
@@ -190,7 +186,7 @@ body {
     transform: scale(1.05);
 }
 
-/* ===================== TIPOS DE SUCATA ===================== */
+/* ===================== CSS DO TIPOS DE SUCATA ===================== */
 .tiposSucatas {
     background-color: #f5f5f5;
 }
@@ -242,7 +238,6 @@ body {
     display: flex;
 }
 
-/* ===================== ARTIGO ===================== */
 .artigo-sucata p {
     font-size: 14px;
     line-height: 25px;
@@ -250,15 +245,14 @@ body {
     margin-top: 10px;
 }
 
-/* ===================== CONTATO ===================== */
 .contact {
     background-color: #f5f5f5;
 }
 
-/* ===================== RODAPÉ PROFISSIONAL ===================== */
+/* ===================== CSS DO RODAPÉ  ===================== */
 footer {
     background-color: #000;
-    padding: 25px 0; /* altura controlada */
+    padding: 25px 0; 
 }
 
 .footer {
@@ -270,12 +264,10 @@ footer {
     gap: 20px;
 }
 
-/* REMOVE COLUNAS INÚTEIS */
 .footer-1 {
     display: none;
 }
 
-/* TEXTO CENTRALIZADO DE VERDADE */
 .footer-2 {
     flex: 1;
     max-width: 500px;
@@ -286,7 +278,6 @@ footer {
     font-size: 14px;
 }
 
-/* WHATSAPP NA DIREITA */
 .footer-3 {
     display: flex;
     flex-direction: column;
@@ -294,14 +285,12 @@ footer {
     justify-content: center;
 }
 
-/* TÍTULO */
 .footer-3 h3 {
     font-size: 14px;
     margin-bottom: 5px;
     padding: 0;
 }
 
-/* LINHA */
 .footer-3 .line {
     width: 120px;
     height: 2px;
@@ -309,13 +298,12 @@ footer {
     margin: 5px 0 10px 0;
 }
 
-/* LOGO WHATSAPP PEQUENA E ALINHADA */
 .footer-3 img {
     width: 55px;
     height: 55px;
 }
 
-/* ===================== RESPONSIVO ===================== */
+
 @media (max-width: 768px) {
     .footer {
         flex-direction: column;
@@ -331,7 +319,7 @@ footer {
     }
 }
 
-/* ===================== VOLTAR ===================== */
+
 .voltar a {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
@@ -346,7 +334,6 @@ footer {
     margin: auto;
 }
 
-/* ===================== RESPONSIVIDADE ===================== */
 @media (max-width: 1024px) {
     .section-header--menu li a {
         font-size: 18px;
@@ -442,7 +429,6 @@ footer {
     }
 }
 
-/* ===================== ANIMAÇÕES ===================== */
 @keyframes clockwise {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
@@ -453,7 +439,6 @@ footer {
     100% { transform: rotate(-360deg); }
 }
 
-/* ===================== GEARBOX ===================== */
 .gearbox {
     background: #111;
     height: 100px;
